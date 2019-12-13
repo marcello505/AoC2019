@@ -13,10 +13,15 @@ public class Main {
             for(String item : numbers){
                 input.add(Integer.parseInt(item));
             }
-            System.out.println("lol");
             int x;
             int y;
             int z;
+//            Part 1 Input modification
+//            input.set(1,12);
+//            input.set(2,2);
+//            Part 2 Input modification
+            input.set(1,50);
+            input.set(2,64);
             for(int i = 0;i < input.size();i+=4){
                 if(input.get(i) == 99 ){
                     break;
